@@ -1,0 +1,36 @@
+[
+    {
+        "id": "8e5785b1f9867b59",
+        "type": "switch",
+        "z": "36562aaf891b17c1",
+        "g": "5512d75913963fd2",
+        "name": "Variable Select",
+        "property": "variable",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "C_85_Start",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "C_83_RQ_Parts",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 760,
+        "y": 780,
+        "wires": [
+            [
+                "a53ff43d2c5e187b"
+            ],
+            [
+                "3e0581219aa0ccef"
+            ]
+        ]
+    }
+]
